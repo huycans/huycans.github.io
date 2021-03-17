@@ -1,47 +1,42 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Digital Grocery',
+    url: 'https://digital-grocery.netlify.app/',
+    subtitle: 'An e-commerce site with intuitive, user-friendly UI',
+    image: 'https://drive.google.com/uc?id=1iCRvTg1XjU-LZ-I2nmquc9Fhvf-j2Gtq',
+    date: '2019-09-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'A basic online shopping site written in React and Bootstrap. '+
+      'Designed with a focus on intuitive, user-friendly UI. '+
+      'Made for my UI design class. No backend is used, all data are stored on the browser. ' +
+      'https://github.com/huycans/digital-grocery'
+      
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Secured Rummy card game',
+    url: 'https://rummy-cardgame.herokuapp.com/',
+    subtitle: 'A security-focus online game',
+    image: 'https://drive.google.com/uc?id=1WTHtw4c8aFF4ePQRbfabxDXjRES_LvDg',
+    date: '2020-12-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'A secured Rummy card game for 2 players. '+
+      'Written in React and NodeJS, with MongoDB database. '+
+      'This app follows most OWASP recommendations for security. '+
+      'Includes: email authentication; proper user data validation, secured against SQL injection, CSRF, XSS; proper session management and data audit trail to prevent cheating. '+
+      'Game data are transfered over secured TLS and Websocket. '+
+      'https://github.com/huycans/Rummy-server'
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'YAMEX forum',
+    url: 'https://yamex.herokuapp.com/',
+    subtitle: 'A basic internet forum',
+    image: 'https://drive.google.com/uc?id=1AuuSOjYTBxOK7ZmGwiodYdqAgIw2FlEN',
+    date: '2020-09-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'A basic motorcycle theme internet forum, written in React and NodeJS and MongoDB. '+
+      'Support account creation, authentication, threads creation, replying, and avatar uploading. '+
+      'https://github.com/huycans/yamex-murof-backend'
   },
 ];
 
