@@ -35,6 +35,30 @@ const courses = [
     link: '',
     university: 'GMU',
   },
+  {
+    title: 'Design Patterns',
+    number: '',
+    link: '',
+    university: 'VGU',
+  },
+  {
+    title: 'Algorithm and Data Structures',
+    number: '',
+    link: '',
+    university: 'VGU',
+  },
+  {
+    title: 'Object Oriented Programing with Java',
+    number: '',
+    link: '',
+    university: 'VGU',
+  },
+  {
+    title: 'Computer Network',
+    number: '',
+    link: '',
+    university: 'VGU',
+  },
 ];
 
 export default courses;

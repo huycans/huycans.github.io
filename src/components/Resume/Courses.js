@@ -21,8 +21,8 @@ const getRows = (courses) => courses.sort((a, b) => {
 const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
-    <div className="title">
-      <h3>Selected Courses</h3>
+    <div>
+      <span>Selected Courses</span>
     </div>
     <ul className="course-list">
       {getRows(data)}

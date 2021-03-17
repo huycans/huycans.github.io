@@ -73,16 +73,19 @@ class Skills extends Component {
         <div className="link-to" id="skills" />
         <div className="title">
           <h3>Skills</h3>
-          <p>Note: I think these sections are silly, but everyone seems to have one.
-            Here is a *mostly* honest overview of my skills.
-          </p>
         </div>
-        <div className="skill-button-container">
-          {this.getButtons()}
+        <div className="skills-container">
+          <ul className="points">
+            <li>Frontend development: HTML5, CSS, JavaScript, React, Angular, Agile Scrum</li>
+            <li>Backend development: NodeJS, SQL and MongoDB databases</li>
+            <li>Others: Java, Junit, JavaEE, Python, Data mining, documentation</li>
+            <li>Data mining: Pandas, Numpy, Jupyter, Scikit Learn</li>
+            <li>CI/CD cloud deployment using Heroku and Netlify</li>
+            <li>Development tools: Git, Slack, Visual Code, Eclipse</li>
+            <li>Soft skills: team oriented, critical and analytical thinking, detail oriented</li>
+          </ul>
         </div>
-        <div className="skill-row-container">
-          {this.getRows()}
-        </div>
+
       </div>
     );
   }

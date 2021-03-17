@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Courses from '../Resume/Courses';
 
+import courses from '../../data/resume/courses';
 import Degree from './Education/Degree';
 
 const Education = ({ data }) => (
@@ -15,6 +17,7 @@ const Education = ({ data }) => (
         key={degree.school}
       />
     ))}
+    <Courses data={courses} />
   </div>
 );
 
