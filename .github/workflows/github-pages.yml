@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 10.16.x
     - name: Install
-      run: npm ci
+      run: yarn install
     - name: Build and Deploy
       env:
         NODE_ENV: production
@@ -28,4 +28,4 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/huycans/huycans.github.io.git
-          npm run deploy
+          yarn run deploy
