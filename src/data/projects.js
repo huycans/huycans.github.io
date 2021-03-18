@@ -2,7 +2,7 @@
 const data = [
   {
     title: 'Digital Grocery',
-    url: 'https://digital-grocery.netlify.app/',
+    link: 'https://digital-grocery.netlify.app/',
     subtitle: 'An e-commerce site with intuitive, user-friendly UI',
     image: 'https://drive.google.com/uc?id=1iCRvTg1XjU-LZ-I2nmquc9Fhvf-j2Gtq',
     date: '2019-09-01',
@@ -15,7 +15,7 @@ const data = [
   },
   {
     title: 'Secured Rummy card game',
-    url: 'https://rummy-cardgame.herokuapp.com/',
+    link: 'https://rummy-cardgame.herokuapp.com/',
     subtitle: 'A security-focus online game',
     image: 'https://drive.google.com/uc?id=1WTHtw4c8aFF4ePQRbfabxDXjRES_LvDg',
     date: '2020-12-01',
@@ -29,7 +29,7 @@ const data = [
   },
   {
     title: 'YAMEX forum',
-    url: 'https://yamex.herokuapp.com/',
+    link: 'https://yamex.herokuapp.com/',
     subtitle: 'A basic internet forum',
     image: 'https://drive.google.com/uc?id=1AuuSOjYTBxOK7ZmGwiodYdqAgIw2FlEN',
     date: '2020-09-01',

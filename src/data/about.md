@@ -1,21 +1,12 @@
 
 # Intro
-Who I am?
-What I'm interested in?
+Hi there. Welcome to my personal page. I'm a Software Developer from Vietnam, currently studying Software Engineering at George Mason University. Here you can find my contact information, my past projects and my resume. Feel free to send me an email if you want to contact me.
 
-# Currently
+# Things I like
+Coding in JavaScript. 
+Learning about new technology, especially web related.
+Fan of video games, books and movies.
+Trivia nerds. I know too much about history and geography. Too much.
 
-What am I doing now?
-
-# I like
-There's got to be something!
-
-# Fun facts
-
-Something interesting here.
-# I dream of
-
-No, not the thing you saw in your sleeps.
 # Cool stuff to check out
-
-Check this out.
+Check out my old school [projects](/projects)
