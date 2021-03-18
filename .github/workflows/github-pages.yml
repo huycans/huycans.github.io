@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 10.16.x
     - name: Install
-      run: yarn install
+      run: yarn
     - name: Build and Deploy
       env:
         NODE_ENV: production
