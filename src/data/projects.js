@@ -4,7 +4,7 @@ const data = [
     title: 'Digital Grocery',
     link: 'https://digital-grocery.netlify.app/',
     subtitle: 'An e-commerce site with intuitive, user-friendly UI',
-    image: '/images/projects/grocery',
+    image: '/images/projects/grocery.png',
     date: '2019-09-01',
     desc:
       'A basic online shopping site written in React and Bootstrap. '+
@@ -17,7 +17,7 @@ const data = [
     title: 'Secured Rummy card game',
     link: 'https://rummy-cardgame.herokuapp.com/',
     subtitle: 'A security-focus online game',
-    image: '/images/projects/rummy',
+    image: '/images/projects/rummy.png',
     date: '2020-12-01',
     desc:
       'A secured Rummy card game for 2 players. '+
@@ -31,7 +31,7 @@ const data = [
     title: 'YAMEX forum',
     link: 'https://yamex.herokuapp.com/',
     subtitle: 'A basic internet forum',
-    image: '/images/projects/yamex',
+    image: '/images/projects/yamex.png',
     date: '2020-09-01',
     desc:
       'A basic motorcycle theme internet forum, written in React and NodeJS and MongoDB. '+
