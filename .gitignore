@@ -4,6 +4,9 @@ docs
 # eslint
 .eslintcache
 
+#sample env variables
+*.env
+
 # Logs
 logs
 *.log
