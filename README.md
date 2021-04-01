@@ -8,8 +8,8 @@ My personal website. Written in React, deploy on [github pages](https://pages.gi
 To download the repository and install dependencies, run the following commands:
 
 ```bash
-git clone git://github.com/mldangelo/personal-site.git # replace [mldangelo] with your github username if you fork first.
-cd personal-site
+git clone https://github.com/huycans/huycans.github.io.git
+cd huycans.github.io
 nvm install # this is optional - make sure you're running >= node 12 with `node --version`
 npm install
 ```
@@ -38,6 +38,3 @@ Make a commit to `main` and push your changes. That's it.
 
 To statically export the site without deploying to github pages, delete or disable `.github/workflows/github-pages.yml` and run `npm run predeploy`. This generates a static export of the website as `personal-site/build/`. Copy this and self-host or deploy to a CDN.
 
-## Acknowledgements
-
-This repo is based on this: https://github.com/mldangelo/personal-site
