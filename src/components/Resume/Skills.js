@@ -82,7 +82,6 @@ class Skills extends Component {
             <li>Data mining: Pandas, Numpy, Jupyter, Scikit Learn</li>
             <li>CI/CD cloud deployment using Heroku and Netlify</li>
             <li>Development tools: Git, Slack, Visual Code, Eclipse</li>
-            <li>Soft skills: team oriented, critical and analytical thinking, detail oriented</li>
           </ul>
         </div>
 
