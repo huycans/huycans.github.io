@@ -18,7 +18,13 @@ const courses = [
     university: 'GMU',
   },
   {
-    title: 'Secure Software Design',
+    title: 'Secure Software Design and Programming',
+    number: '',
+    link: '',
+    university: 'GMU',
+  },
+  {
+    title: 'Software Engineering for the Web',
     number: '',
     link: '',
     university: 'GMU',

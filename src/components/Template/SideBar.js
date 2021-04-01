@@ -32,7 +32,6 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">&copy; Huy Vuong</p>
-      <p className="copyright">Adapted from Michael D'Angelo</p>
     </section>
   </section>
 );
