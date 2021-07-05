@@ -65,7 +65,7 @@ class Skills extends Component {
       buttons.All = !Object.keys(prevState.buttons).some((key) => buttons[key]);
       return { buttons };
     });
-  }
+  };
 
   render() {
     return (
@@ -76,15 +76,15 @@ class Skills extends Component {
         </div>
         <div className="skills-container">
           <ul className="points">
-            <li>Frontend development: HTML5, CSS, JavaScript, React, Angular, Agile Scrum</li>
-            <li>Backend development: NodeJS, SQL and MongoDB databases</li>
-            <li>Others: Java, Junit, JavaEE, Python, Data mining, documentation</li>
-            <li>Data mining: Pandas, Numpy, Jupyter, Scikit Learn</li>
-            <li>CI/CD cloud deployment using Heroku and Netlify</li>
-            <li>Development tools: Git, Slack, Visual Code, Eclipse</li>
+            <li>Web Tech:	JavaScript, HTML/HTML5, CSS, JQuery, React, NodeJS, Bootstrap, JSON.</li>
+            <li>Node Modules:	Async, Express, Passport, Lodash, NPM, Gulp, Request, Browserify</li>
+            <li>Programming Languages:	JavaScript, TypeScript</li>
+            <li>Database:	Oracle SQL, MySQL, SQL Server, MongoDB</li>
+            <li>Testing:	Jest, Enzyme, Mocha, Chai, Cypress</li>
+            <li>Version Control:	Git</li>
+            <li>Methodologies:	Agile/Scrum, TDD, BDD, Waterfall</li>
           </ul>
         </div>
-
       </div>
     );
   }

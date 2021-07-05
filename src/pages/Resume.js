@@ -12,15 +12,15 @@ import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
-  'Education',
   'Experience',
-  'Skills'
+  'Skills',
+  'Education',
 ];
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Huy Vuong's Resume"
+    description="Huey Vuong's Resume"
   >
     <article className="post" id="resume">
       <header>
@@ -35,9 +35,9 @@ const Resume = () => (
 
         </div>
       </header>
-      <Education data={degrees} />
       <Experience data={positions} />
       <Skills skills={skills} categories={categories} />
+      <Education data={degrees} />
     </article>
   </Main>
 );

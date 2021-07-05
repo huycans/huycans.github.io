@@ -1,3 +1,4 @@
+//not used
 const skills = [
   {
     title: 'Javascript',

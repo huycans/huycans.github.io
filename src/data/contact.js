@@ -11,12 +11,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://www.linkedin.com/in/huytvuong',
-    label: 'LinkedIn',
-    icon: faLinkedinIn,
-  },
-  {
-    link: 'mailto:huyvuong0096@gmail.com',
+    link: 'mailto:h.tvuong07@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },

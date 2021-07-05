@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Course = ({ data, last }) => (
   <li className="course-container">
-    <a href={data.link}>
+    <a>
       <p className="course-name">{data.title}</p>
     </a>
     {!last && <div className="course-dot"><p className="course-name"> &#8226;</p></div>}
