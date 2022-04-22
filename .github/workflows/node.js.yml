@@ -24,12 +24,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm
+    - run: npm install
     - name: Build and Statically Render
       run: npm run predeploy
       env:
         NODE_ENV: development
     - name: Test
-      run: npm test
+      run: npm run test
       env:
         NODE_ENV: development
