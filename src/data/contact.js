@@ -11,7 +11,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'mailto:h.tvuong07@gmail.com',
+    link: 'mailto:th.vuong02@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },

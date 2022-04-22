@@ -76,11 +76,11 @@ class Skills extends Component {
         </div>
         <div className="skills-container">
           <ul className="points">
-            <li>Web Tech:	JavaScript, HTML/HTML5, CSS, JQuery, React, NodeJS, Bootstrap, JSON.</li>
-            <li>Node Modules:	Async, Express, Passport, Lodash, NPM, Gulp, Request, Browserify</li>
-            <li>Programming Languages:	JavaScript, TypeScript</li>
-            <li>Database:	Oracle SQL, MySQL, SQL Server, MongoDB</li>
-            <li>Testing:	Jest, Enzyme, Mocha, Chai, Cypress</li>
+            <li>Web Tech:	JavaScript, HTML/HTML5, CSS, SCSS, JQuery, React, NodeJS, Bootstrap, JSON.</li>
+            <li>Node Modules:	Async, Express, Passport, Lodash, NPM</li>
+            <li>Programming Languages:	JavaScript, TypeScript, Python</li>
+            <li>Database:	Oracle SQL, MongoDB</li>
+            <li>Testing:	Jest, Enzyme, Cypress</li>
             <li>Version Control:	Git</li>
             <li>Methodologies:	Agile/Scrum, TDD, BDD, Waterfall</li>
           </ul>
