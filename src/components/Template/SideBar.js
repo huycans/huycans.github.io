@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Huey Vuong. Software Engineer. React Developer. </p>
-      <p>Experienced Software Developer with 5+ years of experience, mainly on frontend development. Familiar with all aspects of Software Development Life Cycle phases and agile project management.</p>
+      <p>Experienced Software Developer mainly on frontend development. Familiar with all aspects of Software Development Life Cycle phases and agile project management.</p>
       <p>Technology stack: HTML5, CSS, JS ES6, React, Redux, React Hooks, React Router, SCSS, Typescript, Babel, Webpack, Jquery, Jest, Enzyme, NodeJS, Express, MongoDB, SQL, Git, Restful services, JSON, Agile Scrum</p>
       <ul className="actions">
         <li>
