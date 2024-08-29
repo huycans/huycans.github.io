@@ -1,19 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Main from '../layouts/Main';
+import Main from "../layouts/Main";
 // import EmailLink from '../components/Contact/EmailLink';
-import ContactIcons from '../components/Contact/ContactIcons';
+import ContactIcons from "../components/Contact/ContactIcons";
 
 const Contact = () => (
   <Main
     title="Contact"
-    description="Contact Huey Vuong via email @ th.vuong02@gmail.com"
+    description="Contact Huy Vuong via email @ th.vuong02@gmail.com"
   >
     <article className="post" id="contact">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/contact">Contact</Link></h2>
+          <h2 data-testid="heading">
+            <Link to="/contact">Contact</Link>
+          </h2>
         </div>
       </header>
       <div className="email-at">

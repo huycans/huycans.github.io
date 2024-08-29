@@ -1,4 +1,4 @@
-# Huey Vuong Personal Website
+# Huy Vuong Personal Website
 
 [huycans.github.io](https://huycans.github.io/)
 

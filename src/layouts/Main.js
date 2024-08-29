@@ -1,25 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import React from "react";
+import PropTypes from "prop-types";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import Analytics from '../components/Template/Analytics';
-import Navigation from '../components/Template/Navigation';
-import SideBar from '../components/Template/SideBar';
-import ScrollToTop from '../components/Template/ScrollToTop';
+import Analytics from "../components/Template/Analytics";
+import Navigation from "../components/Template/Navigation";
+import SideBar from "../components/Template/SideBar";
+import ScrollToTop from "../components/Template/ScrollToTop";
 
 const Main = (props) => (
   <HelmetProvider>
     <Analytics />
     <ScrollToTop />
-    <Helmet titleTemplate="%s | Huey Vuong" defaultTitle="Huey Vuong">
+    <Helmet titleTemplate="%s | Huy Vuong" defaultTitle="Huy Vuong">
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
     <div id="wrapper">
       <Navigation />
-      <div id="main">
-        {props.children}
-      </div>
+      <div id="main">{props.children}</div>
       {props.fullPage ? null : <SideBar />}
     </div>
   </HelmetProvider>
@@ -28,18 +26,18 @@ const Main = (props) => (
 Main.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
+    PropTypes.node
   ]),
   fullPage: PropTypes.bool,
   title: PropTypes.string,
-  description: PropTypes.string,
+  description: PropTypes.string
 };
 
 Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Huey Vuong's personal website.",
+  description: "Huy Vuong's personal website."
 };
 
 export default Main;

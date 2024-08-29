@@ -1,5 +1,31 @@
 const positions = [
   {
+    company: "Amazon",
+    position: "Frontend Engineer",
+    daterange: "August 2022 - Present",
+    link: "https://www.amazon.com/",
+    projects: [
+      {
+        name: "Frontend Monorepo UI Library",
+        points: [
+          "Maintained an NX monorepo frontend UI library used by 12 product teams inside Amazon Co-Branded Credit Cards Payments organization, facilitating building React-based modern web applications inside Amazon ecosystem",
+          "Implemented enhancements to monorepo's building and testing processes, reducing build time by 60%, thereby improving developer experience and raising productivity for all client teams",
+          "Led an org-wide campaign to update legacy unit tests by identifying gaps in codebase, writing a best practice guide, and holding educational sessions for clients, leading to an increase in overall code quality of clients' codebase",
+          "Created and maintained documentation of the monorepo, including internal wikis and system design documents, to improve client's onboarding, development, and troubleshooting experience",
+          "Ensured high level of operational excellence through monthly oncall activities to support the team's clients by keeping CI/CD pipelines healthy"
+        ]
+      },
+      {
+        name: "Secured Solution to Display Sensitive Data",
+        points: [
+          "Implemented cross-domain, iframe based solution to securely render retail customer’s personal data, isolating critical content against a compromised host and protecting content against Cross-site scripting (XSS) attacks",
+          "Designed and built a Software Development Kit (SDK) package that includes ready-to-use APIs to facilitate client teams onboarding and integrating the security solution in their applications",
+          "Devised async loading mechanism using Promises and Callbacks to allow data fetching and iframe assets fetching flows, helping reducing latency of security solution by 30% as compared to a non-async solution"
+        ]
+      }
+    ]
+  },
+  {
     company: "Ameriprise",
     position: "Frontend Engineer",
     daterange: "August 2021 - Present",

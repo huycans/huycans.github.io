@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import ContactIcons from '../Contact/ContactIcons';
+import ContactIcons from "../Contact/ContactIcons";
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -12,26 +12,44 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="My logo" />
       </Link>
       <header>
-        <h2>Huey Vuong</h2>
-        <p><a href="mailto:th.vuong02@gmail.com">th.vuong02@gmail.com</a></p>
+        <h2>Huy Vuong</h2>
+        <p>
+          <a href="mailto:th.vuong02@gmail.com">th.vuong02@gmail.com</a>
+        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Huey Vuong. Software Engineer. React Developer. </p>
-      <p>Experienced Software Developer mainly on frontend development. Familiar with all aspects of Software Development Life Cycle phases and agile project management.</p>
-      <p>Technology stack: HTML5, CSS, JS ES6, React, Redux, React Hooks, React Router, SCSS, Typescript, Babel, Webpack, Jquery, Jest, Enzyme, NodeJS, Express, MongoDB, SQL, Git, Restful services, JSON, Agile Scrum</p>
+      <p>Huy Vuong. Software Engineer. React Developer. </p>
+      <p>
+        Experienced Software Developer mainly on frontend development. Familiar
+        with all aspects of Software Development Life Cycle phases and agile
+        project management.
+      </p>
+      <p>
+        Technology stack: HTML5, CSS, JS ES6, React, Redux, React Hooks, React
+        Router, SCSS, Typescript, Babel, Webpack, Jquery, Jest, Enzyme, NodeJS,
+        Express, MongoDB, SQL, Git, Restful services, JSON, Agile Scrum
+      </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes("/resume") ? (
+            <Link to="/resume" className="button">
+              Learn More
+            </Link>
+          ) : (
+            <Link to="/about" className="button">
+              About Me
+            </Link>
+          )}
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Huey Vuong</p>
+      <p className="copyright">&copy; Huy Vuong</p>
     </section>
   </section>
 );

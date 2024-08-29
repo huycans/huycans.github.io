@@ -1,25 +1,25 @@
 const routes = [
   {
     index: true,
-    label: "Huey Vuong",
-    path: '/',
+    label: "Huy Vuong",
+    path: "/"
   },
   {
-    label: 'About',
-    path: '/about',
+    label: "About",
+    path: "/about"
   },
   {
-    label: 'Resume',
-    path: '/resume',
+    label: "Resume",
+    path: "/resume"
   },
   {
-    label: 'Projects',
-    path: '/projects',
+    label: "Projects",
+    path: "/projects"
   },
   {
-    label: 'Contact',
-    path: '/contact',
-  },
+    label: "Contact",
+    path: "/contact"
+  }
 ];
 
 export default routes;
