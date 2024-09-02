@@ -23,9 +23,9 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Huy Vuong. Software Engineer. React Developer. </p>
       <p>
-        Experienced Software Developer mainly on frontend development. Familiar
-        with all aspects of Software Development Life Cycle phases and agile
-        project management.
+        Software Engineer with 3 years of experience with a specialization in
+        frontend development. Familiar with all aspects of Software Development
+        Life Cycle and agile developement.
       </p>
       <p>
         Technology stack: HTML5, CSS, JS ES6, React, Redux, React Hooks, React
